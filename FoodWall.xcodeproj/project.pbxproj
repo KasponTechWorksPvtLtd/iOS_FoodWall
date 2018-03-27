@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F2AF911206A25750005AD7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AF910206A25750005AD7B /* AppDelegate.swift */; };
+		9F2AF913206A25750005AD7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AF912206A25750005AD7B /* ViewController.swift */; };
+		9F2AF916206A25750005AD7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2AF914206A25750005AD7B /* Main.storyboard */; };
+		9F2AF919206A25750005AD7B /* FoodWall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AF917206A25750005AD7B /* FoodWall.xcdatamodeld */; };
+		9F2AF91B206A25750005AD7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2AF91A206A25750005AD7B /* Assets.xcassets */; };
+		9F2AF91E206A25750005AD7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2AF91C206A25750005AD7B /* LaunchScreen.storyboard */; };
+		9F2AF929206A25760005AD7B /* FoodWallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AF928206A25760005AD7B /* FoodWallTests.swift */; };
+		9F2AF934206A25760005AD7B /* FoodWallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AF933206A25760005AD7B /* FoodWallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F2AF925206A25760005AD7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2AF905206A25750005AD7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2AF90C206A25750005AD7B;
+			remoteInfo = FoodWall;
+		};
+		9F2AF930206A25760005AD7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2AF905206A25750005AD7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2AF90C206A25750005AD7B;
+			remoteInfo = FoodWall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F2AF90D206A25750005AD7B /* FoodWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2AF910206A25750005AD7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F2AF912206A25750005AD7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F2AF915206A25750005AD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F2AF918206A25750005AD7B /* FoodWall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodWall.xcdatamodel; sourceTree = "<group>"; };
+		9F2AF91A206A25750005AD7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F2AF91D206A25750005AD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F2AF91F206A25750005AD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2AF924206A25760005AD7B /* FoodWallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodWallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2AF928206A25760005AD7B /* FoodWallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodWallTests.swift; sourceTree = "<group>"; };
+		9F2AF92A206A25760005AD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2AF92F206A25760005AD7B /* FoodWallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodWallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2AF933206A25760005AD7B /* FoodWallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodWallUITests.swift; sourceTree = "<group>"; };
+		9F2AF935206A25760005AD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F2AF90A206A25750005AD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AF921206A25760005AD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AF92C206A25760005AD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F2AF904206A25750005AD7B = {
+			isa = PBXGroup;
+			children = (
+				9F2AF90F206A25750005AD7B /* FoodWall */,
+				9F2AF927206A25760005AD7B /* FoodWallTests */,
+				9F2AF932206A25760005AD7B /* FoodWallUITests */,
+				9F2AF90E206A25750005AD7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F2AF90E206A25750005AD7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2AF90D206A25750005AD7B /* FoodWall.app */,
+				9F2AF924206A25760005AD7B /* FoodWallTests.xctest */,
+				9F2AF92F206A25760005AD7B /* FoodWallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F2AF90F206A25750005AD7B /* FoodWall */ = {
+			isa = PBXGroup;
+			children = (
+				9F2AF910206A25750005AD7B /* AppDelegate.swift */,
+				9F2AF912206A25750005AD7B /* ViewController.swift */,
+				9F2AF914206A25750005AD7B /* Main.storyboard */,
+				9F2AF91A206A25750005AD7B /* Assets.xcassets */,
+				9F2AF91C206A25750005AD7B /* LaunchScreen.storyboard */,
+				9F2AF91F206A25750005AD7B /* Info.plist */,
+				9F2AF917206A25750005AD7B /* FoodWall.xcdatamodeld */,
+			);
+			path = FoodWall;
+			sourceTree = "<group>";
+		};
+		9F2AF927206A25760005AD7B /* FoodWallTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2AF928206A25760005AD7B /* FoodWallTests.swift */,
+				9F2AF92A206A25760005AD7B /* Info.plist */,
+			);
+			path = FoodWallTests;
+			sourceTree = "<group>";
+		};
+		9F2AF932206A25760005AD7B /* FoodWallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2AF933206A25760005AD7B /* FoodWallUITests.swift */,
+				9F2AF935206A25760005AD7B /* Info.plist */,
+			);
+			path = FoodWallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F2AF90C206A25750005AD7B /* FoodWall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2AF938206A25760005AD7B /* Build configuration list for PBXNativeTarget "FoodWall" */;
+			buildPhases = (
+				9F2AF909206A25750005AD7B /* Sources */,
+				9F2AF90A206A25750005AD7B /* Frameworks */,
+				9F2AF90B206A25750005AD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodWall;
+			productName = FoodWall;
+			productReference = 9F2AF90D206A25750005AD7B /* FoodWall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F2AF923206A25760005AD7B /* FoodWallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2AF93B206A25760005AD7B /* Build configuration list for PBXNativeTarget "FoodWallTests" */;
+			buildPhases = (
+				9F2AF920206A25760005AD7B /* Sources */,
+				9F2AF921206A25760005AD7B /* Frameworks */,
+				9F2AF922206A25760005AD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2AF926206A25760005AD7B /* PBXTargetDependency */,
+			);
+			name = FoodWallTests;
+			productName = FoodWallTests;
+			productReference = 9F2AF924206A25760005AD7B /* FoodWallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F2AF92E206A25760005AD7B /* FoodWallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2AF93E206A25760005AD7B /* Build configuration list for PBXNativeTarget "FoodWallUITests" */;
+			buildPhases = (
+				9F2AF92B206A25760005AD7B /* Sources */,
+				9F2AF92C206A25760005AD7B /* Frameworks */,
+				9F2AF92D206A25760005AD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2AF931206A25760005AD7B /* PBXTargetDependency */,
+			);
+			name = FoodWallUITests;
+			productName = FoodWallUITests;
+			productReference = 9F2AF92F206A25760005AD7B /* FoodWallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F2AF905206A25750005AD7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ramesh Ponnuvel";
+				TargetAttributes = {
+					9F2AF90C206A25750005AD7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9F2AF923206A25760005AD7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F2AF90C206A25750005AD7B;
+					};
+					9F2AF92E206A25760005AD7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F2AF90C206A25750005AD7B;
+					};
+				};
+			};
+			buildConfigurationList = 9F2AF908206A25750005AD7B /* Build configuration list for PBXProject "FoodWall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F2AF904206A25750005AD7B;
+			productRefGroup = 9F2AF90E206A25750005AD7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F2AF90C206A25750005AD7B /* FoodWall */,
+				9F2AF923206A25760005AD7B /* FoodWallTests */,
+				9F2AF92E206A25760005AD7B /* FoodWallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F2AF90B206A25750005AD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2AF91E206A25750005AD7B /* LaunchScreen.storyboard in Resources */,
+				9F2AF91B206A25750005AD7B /* Assets.xcassets in Resources */,
+				9F2AF916206A25750005AD7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AF922206A25760005AD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AF92D206A25760005AD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F2AF909206A25750005AD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2AF913206A25750005AD7B /* ViewController.swift in Sources */,
+				9F2AF919206A25750005AD7B /* FoodWall.xcdatamodeld in Sources */,
+				9F2AF911206A25750005AD7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AF920206A25760005AD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2AF929206A25760005AD7B /* FoodWallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2AF92B206A25760005AD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2AF934206A25760005AD7B /* FoodWallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F2AF926206A25760005AD7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F2AF90C206A25750005AD7B /* FoodWall */;
+			targetProxy = 9F2AF925206A25760005AD7B /* PBXContainerItemProxy */;
+		};
+		9F2AF931206A25760005AD7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F2AF90C206A25750005AD7B /* FoodWall */;
+			targetProxy = 9F2AF930206A25760005AD7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F2AF914206A25750005AD7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2AF915206A25750005AD7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F2AF91C206A25750005AD7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2AF91D206A25750005AD7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F2AF936206A25760005AD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F2AF937206A25760005AD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F2AF939206A25760005AD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM98EN6395;
+				INFOPLIST_FILE = FoodWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaspontech.FoodWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F2AF93A206A25760005AD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM98EN6395;
+				INFOPLIST_FILE = FoodWall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaspontech.FoodWall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F2AF93C206A25760005AD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM98EN6395;
+				INFOPLIST_FILE = FoodWallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaspontech.FoodWallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodWall.app/FoodWall";
+			};
+			name = Debug;
+		};
+		9F2AF93D206A25760005AD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM98EN6395;
+				INFOPLIST_FILE = FoodWallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaspontech.FoodWallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodWall.app/FoodWall";
+			};
+			name = Release;
+		};
+		9F2AF93F206A25760005AD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM98EN6395;
+				INFOPLIST_FILE = FoodWallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaspontech.FoodWallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodWall;
+			};
+			name = Debug;
+		};
+		9F2AF940206A25760005AD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM98EN6395;
+				INFOPLIST_FILE = FoodWallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaspontech.FoodWallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodWall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F2AF908206A25750005AD7B /* Build configuration list for PBXProject "FoodWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2AF936206A25760005AD7B /* Debug */,
+				9F2AF937206A25760005AD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2AF938206A25760005AD7B /* Build configuration list for PBXNativeTarget "FoodWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2AF939206A25760005AD7B /* Debug */,
+				9F2AF93A206A25760005AD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2AF93B206A25760005AD7B /* Build configuration list for PBXNativeTarget "FoodWallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2AF93C206A25760005AD7B /* Debug */,
+				9F2AF93D206A25760005AD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2AF93E206A25760005AD7B /* Build configuration list for PBXNativeTarget "FoodWallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2AF93F206A25760005AD7B /* Debug */,
+				9F2AF940206A25760005AD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F2AF917206A25750005AD7B /* FoodWall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F2AF918206A25750005AD7B /* FoodWall.xcdatamodel */,
+			);
+			currentVersion = 9F2AF918206A25750005AD7B /* FoodWall.xcdatamodel */;
+			path = FoodWall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F2AF905206A25750005AD7B /* Project object */;
+}
