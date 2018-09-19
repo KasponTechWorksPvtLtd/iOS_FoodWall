@@ -1,0 +1,6 @@
+framework module Pods_FoodWall {
+  umbrella header "Pods-FoodWall-umbrella.h"
+
+  export *
+  module * { export * }
+}

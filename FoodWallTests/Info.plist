@@ -18,5 +18,34 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb160557614636086</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1032084003703-illnb4180egjafelk1haijgo35ujcm38</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>160557614636086</string>
+	<key>FacebookDisplayName</key>
+	<string>FoodWall</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+         <string>fbauth</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+        <string>instagram</string>
+		<string>com.googleusercontent.apps.1032084003703-illnb4180egjafelk1haijgo35ujcm38</string>
+	</array>
 </dict>
 </plist>
